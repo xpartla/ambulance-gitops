@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: xpartla-ambulance-ufe-content
+spec:
+  microFrontend: xpartla-ambulance-ufe
+  element: xpartla-ambulance-wl-list
+  displayRules:
+    - allOf:
+        - context-name: main-content
+        - path: "^(\\.?/)?xpartla-ambulance-wl(/.*)?$"
