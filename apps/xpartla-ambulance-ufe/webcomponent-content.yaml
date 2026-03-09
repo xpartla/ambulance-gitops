@@ -4,7 +4,10 @@ metadata:
   name: xpartla-ambulance-ufe-content
 spec:
   microFrontend: xpartla-ambulance-ufe
-  element: xpartla-ambulance-wl-list
+  element: xpartla-ambulance-wl-app
+  attributes:
+        - name: base-path
+          value: ./xpartla-ambulance-wl/
   displayRules:
     - allOf:
         - context-name: main-content
