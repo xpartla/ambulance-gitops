@@ -9,6 +9,10 @@ labels:
 
 resources:
   - ../../../apps/xpartla-ambulance-ufe
+  - ../../../apps/xpartla-ambulance-webapi
 
+patches:
+  - path: patches/ambulance-webapi.service.yaml
 components:
   - ../../../components/version-developers
+  - https://github.com/xpartla/ambulance-webapi//deployments/kustomize/components/mongodb

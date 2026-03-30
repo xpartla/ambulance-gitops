@@ -4,3 +4,6 @@ images:
   - name: xpartla/ambulance-ufe
     newName: xpartla/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
     newTag: main.20260323.1009 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+  - name: xpartla/ambulance-wl-webapi
+    newName: xpartla/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+    newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
