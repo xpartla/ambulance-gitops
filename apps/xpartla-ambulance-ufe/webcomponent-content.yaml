@@ -10,6 +10,8 @@ spec:
           value: ./xpartla-ambulance-wl/
         - name: api-base
           value: http://localhost:30081/api
+        - name: ambulance-id
+          value: bobulova
   displayRules:
     - allOf:
         - context-name: main-content
