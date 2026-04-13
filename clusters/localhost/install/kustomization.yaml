@@ -10,7 +10,7 @@ labels:
 resources:
   - ../../../apps/xpartla-ambulance-ufe
   - ../../../apps/xpartla-ambulance-webapi
-
+  - ../../../apps/mongo-express
 patches:
   - path: patches/ambulance-webapi.service.yaml
 components:
