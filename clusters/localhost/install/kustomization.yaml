@@ -13,6 +13,7 @@ resources:
   - ../../../apps/mongo-express
 patches:
   - path: patches/ambulance-webapi.service.yaml
+  - path: patches/mongodb-auth.secret.yaml
 components:
   - ../../../components/version-developers
   - https://github.com/xpartla/ambulance-webapi//deployments/kustomize/components/mongodb
