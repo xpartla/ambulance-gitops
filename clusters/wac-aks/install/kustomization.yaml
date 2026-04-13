@@ -12,7 +12,7 @@ labels:
 
 resources:
   - ../../../apps/xpartla-ambulance-ufe
-
+  - ../../../apps/xpartla-ambulance-webapi
 
 components:
   - ../../../components/version-release
