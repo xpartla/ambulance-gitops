@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: xpartla-ambulance-wl # napr. <pfx>-ambulance-wl
+spec:
+  title: Zoznam čakajúcich xpartla # napr. "Zoznam čakajúcich <pfx>"
+  description: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Adam Partl" # Zadajte mená autorov
+  azureLink: "https://xpartla-ambulance-ufe.azurewebsites.net/"
+  frontendRepoUrl: "https://github.com/xpartla/ambulance-ufe"
+  backendRepoUrl: "https://github.com/xpartla/ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/xpartla/ambulance-gitops"

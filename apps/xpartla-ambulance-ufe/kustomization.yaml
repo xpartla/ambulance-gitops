@@ -11,3 +11,4 @@ resources:
 labels:
   - pairs:
       app.kubernetes.io/component: xpartla-ambulance-ufe
+      wac-fiit.github.io/component: frontend
