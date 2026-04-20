@@ -45,3 +45,8 @@ spec:
         certificateRefs:
           - kind: Secret
             name: wac-hospital-tls
+  infrastructure:
+    parametersRef:
+      group: gateway.envoyproxy.io
+      kind: EnvoyProxy
+      name: custom-filter-order

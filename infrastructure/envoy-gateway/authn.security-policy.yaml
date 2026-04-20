@@ -61,3 +61,12 @@ spec:
     - group: gateway.networking.k8s.io
       kind: HTTPRoute
       name: dex
+  extAuth:
+    grpc:
+      backendRefs:
+        - name: opa-plugin
+          port: 9191
+    headersToExtAuth:
+      - x-forwarded-preferred-username
+      - x-forwarded-user
+      - x-forwarded-email
